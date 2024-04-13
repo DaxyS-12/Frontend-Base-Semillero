@@ -177,12 +177,12 @@ themeButton.addEventListener('click', () => {
 const sr  = ScrollReveal({
     origin: 'top',
     distance: '60px',
-    duration: 2500,
-    delay: 400,
+    duration: 2000,
+    delay: 300,
 })
 
 sr.reveal('.home__data, .featured__container, .new__container, .join__data, .testimonial__container, .footer')
-sr.reveal('.home__images', {delay: 600})
+sr.reveal('.home__images', {delay: 500})
 sr.reveal('.services__card', {interval: 100})
 sr.reveal('.discount__data', {origin: 'left'})
 sr.reveal('.discount__images', {origin: 'right'})
